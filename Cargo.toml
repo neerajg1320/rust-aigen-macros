@@ -1,5 +1,8 @@
 [package]
-name = "my_proc_macro"
+name = "aigen_macros"
+authors = ["Neeraj Gupta <neerajg1320@gmail.com>"]
+description = "Procedural macros for testing"
+license = "MIT"
 version = "0.1.0"
 edition = "2021"
 
@@ -10,7 +13,8 @@ proc-macro = true
 
 
 [dependencies]
-proc-macro2="1.0.56"
-quote="1.0.27"
-syn={ version="2.0.15", features=["full"] }
+proc-macro2 = "1.0.79"
+quote = "1.0.35"
+syn={ version = "2.0.52", features = ["full"] }
+
 
